@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Mali&display=swap');
+
+body{
+	font-family: 'Mali', cursive;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link {
+    color: black;
+}
+  
+a:visited {
+    color: gray;
+}
+  
+a:hover {
+    color: red;
+}
+
+.container-grid {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    border: solid 2px black;
+}
+  
+.ln_image_container {
+    border-right: solid 2px black;
+}
+
+.ln_content_container {
+    display: grid;
+}
+
+.ln_image{
+    width: 90%;
+    max-width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.ln_name{
+    margin-top: 0px;
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+
+.ln_content{
+    overflow: scroll;
+    padding: 20px;
+    max-height: 300px;
+}
+
+.ln_content h3{
+    margin-top: -10px;
+}
+
+.ln_content p{
+    margin-top: -10px;
+}
+
+.volume{
+    height: 300px;
+    display: grid;
+    grid-template-rows: 50px 200px;
+}
+
+.volumeTitle{
+    border: 2px solid black;
+}
+
+.volumeTitle h3{
+    margin: 10px;
+}
+
+.chuongList{
+    height: 100%;
+    margin-top: 0px;
+    list-style-position: inside;
+    border: 1px solid black;
+    border-top: 0px;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    overflow: scroll;
+}
+
+@media screen and (max-width: 1000px) {
+    .container-grid {
+        display: grid;
+        grid-template-columns: 30% 70%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .container-grid {
+        display: grid;
+        grid-template-columns: 35% 65%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .container-grid {
+        display: block;
+    }
+  
+    .ln_image_container {
+        border-right: solid 0px black;
+        border-bottom: solid 2px black;
+    }
+}
