@@ -6,6 +6,7 @@ body{
 
 a{
     text-decoration: none;
+	font-size: 25px;
 }
 
 a:link {
@@ -45,7 +46,9 @@ a:hover {
 }
 
 .ln_name{
+	font-size: 40px;
     margin-top: 0px;
+	margin-bottom: 0px;
     text-align: center;
     border-bottom: 2px solid black;
 }
@@ -54,28 +57,32 @@ a:hover {
     overflow: scroll;
     padding: 20px;
     max-height: 300px;
+	overflow-x: hidden;
 }
 
-.ln_content h3{
-    margin-top: -10px;
+.ln_content>h3{
+	font-size: 30px;
+	margin-top: 0px;
 }
 
-.ln_content p{
+.ln_content>p{
     margin-top: -10px;
+	font-size: 20px;
 }
 
 .volume{
-    height: 300px;
+    height: 500px;
     display: grid;
-    grid-template-rows: 50px 200px;
+    grid-template-rows: 60px 400px;
 }
 
 .volumeTitle{
     border: 2px solid black;
 }
 
-.volumeTitle h3{
+.volumeTitle>h3{
     margin: 10px;
+	font-size: 30px;
 }
 
 .chuongList{
@@ -87,6 +94,7 @@ a:hover {
     border-left: 2px solid black;
     border-right: 2px solid black;
     overflow: scroll;
+	overflow-x: hidden;
 }
 
 @media screen and (max-width: 1000px) {

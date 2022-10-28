@@ -9,21 +9,27 @@ body{
     position: fixed;
     top: 0px;
     left: 0px;
-    margin: 0px;
     border-bottom: 1px solid black;
     background-color: white;
 }
 
 .ln_name{
+	font-size: 30px;
     margin: 0px;
     margin-top: 5px;
     text-align: center;
+	max-height: 40px;
+	overflow: hidden;
 }
 
 .chap_name{
+	font-size: 20px;
     text-align: center;
     margin-top: 5px;
     margin-bottom: 5px;
+	max-height: 30px;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
 
 .control_div{
@@ -79,15 +85,16 @@ body{
 }
 
 .chap_content{
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-.chap_content{
     max-width: 700px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+.chap_content>p{
+	font-size: 20px;
 }
 
 .chap_content>img{
