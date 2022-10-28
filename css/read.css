@@ -60,7 +60,7 @@ body{
 }
 
 .previousChap, .home, .nextChap{
-	background: lightgray;
+	background: #D3D3D3;
 }
 
 .previousChap>img{
