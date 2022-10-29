@@ -4,6 +4,10 @@ body{
 	font-family: 'Mali', cursive;
 }
 
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+
 a{
     text-decoration: none;
 	font-size: 25px;
