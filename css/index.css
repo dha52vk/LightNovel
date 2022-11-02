@@ -28,8 +28,15 @@ a{
     padding: 10px;
     border-radius: 10px;
     border: 1px solid black;
-    box-shadow: 0 0 10px gray;
+    box-shadow: 0 0 10px 0 gray;
+	transition: transform .1s ease-in-out;
 }
+
+.index-post:hover{
+	transform: translateY(10px);
+    box-shadow: 0 0 10px 0 black;
+}
+
 .entry-image-wrap{
 	overflow: hidden;
 	width: 80%;

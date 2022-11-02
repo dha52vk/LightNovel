@@ -47,6 +47,7 @@ body{
     display: grid;
     grid-template-columns: repeat(5,1fr);
     background-color: white;
+	overflow: hidden;
 }
 
 .controlIcon{
@@ -54,6 +55,14 @@ body{
     cursor: pointer;
     margin-left: 0px;
     margin-right: 0px;
+	transition: width .5s, height .5s, background .5s, margin-top .5s ease-in-out;
+}
+
+.controlIcon:hover{
+	height: 70px;
+	width: auto;
+	background: gray;
+	margin-top: -10px;
 }
 
 .controlIcon>img{
